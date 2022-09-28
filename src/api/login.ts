@@ -2,7 +2,7 @@ import { UmiApiRequest, UmiApiResponse } from "umi";
 import { PrismaClient } from '@prisma/client'
 import bcrypt from "bcryptjs";
 import { signToken } from "@/utils/jwt";
-
+hahas
 export default async function (req: UmiApiRequest, res: UmiApiResponse) {
   switch (req.method) {
     case 'POST':
